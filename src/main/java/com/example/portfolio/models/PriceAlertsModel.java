@@ -5,7 +5,7 @@ import org.springframework.data.annotation.Id;
 
 
 @Data
-public class PriceAlerts {
+public class PriceAlertsModel {
 
     @Id
     private String priceAlertId;

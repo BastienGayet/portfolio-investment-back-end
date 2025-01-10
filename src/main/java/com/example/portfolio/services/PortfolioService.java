@@ -1,13 +1,13 @@
 package com.example.portfolio.services;
 
 
-import com.example.portfolio.repository.TransactionRepository;
+import com.example.portfolio.repository.PortfolioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class TransactionService {
+public class PortfolioService {
 
     @Autowired
-    private TransactionRepository transactionRepository;
+    private PortfolioRepository portfolioRepository;
 }
